@@ -1,0 +1,1 @@
+//  This file is part of the project "routehistory". The license agreement is described in the "LICENSE" file.

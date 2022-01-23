@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29411.108
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "nui", "nui.vcxproj", "{E2089A35-D908-4B06-B10A-74A4C09D7154}"
+	ProjectSection(ProjectDependencies) = postProject
+		{902F714D-4EB9-4CA1-961A-16A249D8C88D} = {902F714D-4EB9-4CA1-961A-16A249D8C88D}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sharelib", "sharelib.vcxproj", "{902F714D-4EB9-4CA1-961A-16A249D8C88D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E2089A35-D908-4B06-B10A-74A4C09D7154}.Debug|x64.ActiveCfg = Debug|x64
+		{E2089A35-D908-4B06-B10A-74A4C09D7154}.Debug|x64.Build.0 = Debug|x64
+		{E2089A35-D908-4B06-B10A-74A4C09D7154}.Release|x64.ActiveCfg = Release|x64
+		{E2089A35-D908-4B06-B10A-74A4C09D7154}.Release|x64.Build.0 = Release|x64
+		{902F714D-4EB9-4CA1-961A-16A249D8C88D}.Debug|x64.ActiveCfg = Debug|x64
+		{902F714D-4EB9-4CA1-961A-16A249D8C88D}.Debug|x64.Build.0 = Debug|x64
+		{902F714D-4EB9-4CA1-961A-16A249D8C88D}.Release|x64.ActiveCfg = Release|x64
+		{902F714D-4EB9-4CA1-961A-16A249D8C88D}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6590364A-34D1-40E4-9DC4-4429478BBFBC}
+	EndGlobalSection
+EndGlobal
